@@ -183,10 +183,45 @@ header nav a:visited{
     background-color: dodgerblue;
 }
 
+.about-page .middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 20px 0px;
+}
+
+.card h2{
+    padding: 0 0;
+    margin: 10px 0px;
+}
+
+.learn-more{
+    border: solid black 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 33%;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 15px 0px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.about-page .bottom-content{
+    display: block;
 }
 
 .bottom-content .text-container {
